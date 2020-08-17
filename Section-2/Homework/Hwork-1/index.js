@@ -1,0 +1,11 @@
+console.log("1.");
+console.log("Var is: statement declares a variable. Variables are containers for storing information. Creating a variable in JavaScript is called declaring a variable");
+console.log("Const is: keyword is used to declare variables in JavaScript.  But the const keyword creates block-scoped variables whose values can’t be reassigned.");
+console.log("2. Difference between let and var:");
+console.log("The var and let keyword can also be used to declare variables, but the key difference between them lies in their scopes. var is function scoped while let is block scoped");
+console.log("3. Differenecs between let and const:");
+console.log("The const keyword works like the let keyword. But the const keyword creates block-scoped variables whose values can’t be reassigned.");
+console.log("4. Use");
+console.log("var:function scoped, undefined when accessing a variable before it's declared");
+console.log("let:block scoped, ReferenceError when accessing a variable before it's declared");
+console.log("const:block scopedReferenceError when accessing a variable before it's declaredcan't be reassigned");
