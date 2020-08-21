@@ -1,0 +1,16 @@
+// console.log(" Bai tap 1: Swap 2 variables a and b");
+// console.log("VD1:");
+// let a = 1;
+// let b = 2;
+// console.log("a=" + a + "\t" + "b=" + b);
+// let temp = a;
+//     a = b;
+//     b = temp;
+// console.log("a=" + a + "\t" + "b=" + b);
+console.log("VD2:");
+let a = 5;
+let b = 6;
+console.log(a, b);
+console.log("swap a and b");
+[a,b] = [b,a];
+console.log(a, b);
