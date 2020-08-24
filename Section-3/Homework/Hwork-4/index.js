@@ -6,20 +6,18 @@ while(true){
         if(check == "r"){
             let x = "The current items are: \n";
             for (let index = 0; index < items.length; index++) {
-                x += ` ${index + 1} : ${items[index]} \n` ;
-                
+                x += ` ${index + 1} : ${items[index]} \n` ; 
             }
-            alert(x);
-            
+            alert(x);   
         } else if(check == "c"){
             let newitem = prompt("Enter the name of the new item");
             items.push(newitem);
             alert("Done");
             console.log(items);   
         } else if(check == "u"){
-            let i = prompt("Enter the position you want to update");
-            alert("Enter the new name");
-            console.log(items[i]);
+            let i = Number(prompt("Enter the position you want to update"));
+            let update = prompt("Enter the new name");
+            items[i - 1] = update;
             alert("Done");
         } else if(check == "d"){
             let i = promp("Enter the position you want to delete");
