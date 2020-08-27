@@ -11,9 +11,12 @@ let product = {
     brand: 'Xiaomi',
     color: 'White',
 };
-console.log(`name: ${product.name}`);
-console.log(`price: ${product.price}`);
-console.log(`brand: ${product.brand}`);
-console.log(`color: ${product.color}`);
+// console.log(`name: ${product.name}`);
+// console.log(`price: ${product.price}`);
+// console.log(`brand: ${product.brand}`);
+// console.log(`color: ${product.color}`);
+for(let item in product){
+    console.log(`${item} : ${product[item]}`);
+}
 
 
