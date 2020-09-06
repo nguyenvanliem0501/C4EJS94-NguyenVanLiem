@@ -1,0 +1,1 @@
+alert("Em chỉ hình dung ra cách hoạt động nhưng chưa hình dung ra cách phải làm như thế nào. Em nghĩ mãi vẫn không ra.");   
