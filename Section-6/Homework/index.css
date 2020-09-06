@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    list-style: square;
+    font-size: 16px;
+}
+header h1{
+    text-align: center;
+    font-size: 80px;
+   color: rebeccapurple;
+}
+body{
+    background-color: seashell;
+}
+img{
+    width: 40%;
+    
+}
+main {
+    display: flex;
+    margin: 20px;
+    
+}
+.inf{
+    color: deepskyblue;
+    font-size: 30px;
+}
+.story{
+    color: deepskyblue;
+    font-size: 30px;
+}
+.left {
+    width: 80%;
+    margin-left: 350px;
+    
+}
+.right{
+    margin-right: 200px;
+}
+h2{
+    color: fuchsia;
+}
+h3{
+  color: fuchsia;
+}
