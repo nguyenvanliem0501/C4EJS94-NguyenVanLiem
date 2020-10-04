@@ -1,5 +1,35 @@
 let products = [
     {
+        name: 'Iphone 7 Plus',
+        brand: 'Apple',
+        price: '4.950.000 vnd',
+        color: 'Black',
+        specs: {
+            CPU: 'Apple A11 Bionic 6 multiply',
+            camera: 'Camera trước 7MP, camera sau 12MP',
+            internal_memory: '64Gb',
+            screen_type: 'LED-backlit IPS LCD, 4.7", Retina HD',
+            screen_size: '5.2 inches',
+            Screen_resolution: '2436 x 1125 pixels',
+            Operating_system: 'IOS 11',
+        }
+    },
+    {
+        name: 'Iphone 7 Plus',
+        brand: 'Apple',
+        price: '4.950.000 vnd',
+        color: 'Silver',
+        specs: {
+            CPU: 'Apple A11 Bionic 6 multiply',
+            camera: 'Camera trước 7MP, camera sau 12MP',
+            internal_memory: '64Gb',
+            screen_type: 'LED-backlit IPS LCD, 4.7", Retina HD',
+            screen_size: '5.2 inches',
+            Screen_resolution: '2436 x 1125 pixels',
+            Operating_system: 'IOS 11',
+        }
+    },
+    {
         name: 'Iphone 8 ',
         brand: 'Apple',
         price: '5.550.000 vnd',
@@ -30,21 +60,6 @@ let products = [
         }
     },
     {
-        name: 'Iphone 8 ',
-        brand: 'Apple',
-        price: '5.550.000 vnd',
-        color: 'Rose gold',
-        specs: {
-            CPU: 'Apple A11 Bionic 6 multiply',
-            camera: 'Camera trước 7MP, camera sau 12MP',
-            internal_memory: '64Gb',
-            screen_type: 'LED-backlit IPS LCD, 4.7", Retina HD',
-            screen_size: '5.2 inches',
-            Screen_resolution: '2436 x 1125 pixels',
-            Operating_system: 'IOS 11',
-        }
-    },
-    {
         name: 'Iphone 8 Plus',
         brand: 'Apple',
         price: '7.550.000 vnd',
@@ -63,7 +78,7 @@ let products = [
         name: 'Iphone 8 Plus',
         brand: 'Apple',
         price: '7.550.000 vnd',
-        color: 'Black',
+        color: 'Rose gold',
         specs: {
             CPU: 'Apple A11 Bionic APL1W72',
             camera: 'Camera trước 7MP, camera sau 12MP',
@@ -78,7 +93,7 @@ let products = [
         name: 'Iphone 8 Plus',
         brand: 'Apple',
         price: '7.550.000 vnd',
-        color: 'Rose gold',
+        color: 'Red',
         specs: {
             CPU: 'Apple A11 Bionic APL1W72',
             camera: 'Camera trước 7MP, camera sau 12MP',
@@ -93,7 +108,7 @@ let products = [
         name: 'Iphone X',
         brand: 'Apple',
         price: '9.350.000 vnd',
-        color: 'Silver',
+        color: 'Black',
         specs: {
             CPU: '2x 2.1 GHz Monsoon , 4x 2.1 GHz Mistral',
             camera: '2x 12 MP, f/1.8 & f/2.4, tự động lấy nét nhận diện theo giai đoạn, 2x zoom quang học, OIS, 4 LED flash (2 tone)',
@@ -107,21 +122,7 @@ let products = [
         name: 'Iphone X',
         brand: 'Apple',
         price: '9.350.000 vnd',
-        color: 'Black',
-        specs: {
-            CPU: '2x 2.1 GHz Monsoon , 4x 2.1 GHz Mistral',
-            camera: '2x 12 MP, f/1.8 & f/2.4, tự động lấy nét nhận diện theo giai đoạn, 2x zoom quang học, OIS, 4 LED flash (2 tone)',
-            internal_memory: '64Gb',
-            screen_type: 'Cảm ứng điện dung OLED, 16 triệu màu',
-            screen_size: '4.8 inches',
-            Operating_system: 'IOS 11.1',
-        }
-    },
-    {
-        name: 'Iphone X',
-        brand: 'Apple',
-        price: '9.350.000 vnd',
-        color: 'Rose gold',
+        color: 'Silver',
         specs: {
             CPU: '2x 2.1 GHz Monsoon , 4x 2.1 GHz Mistral',
             camera: '2x 12 MP, f/1.8 & f/2.4, tự động lấy nét nhận diện theo giai đoạn, 2x zoom quang học, OIS, 4 LED flash (2 tone)',
@@ -155,7 +156,7 @@ let products = [
         brand: 'Apple',
         version: 64,
         price: '21.990.000 vnd',
-        color: 'Black',
+        color: 'Green',
         specs: {
             screen: 6.1,
             screen_type: 'IPS lcd',
@@ -169,6 +170,7 @@ let products = [
             sim: '1 esim & 1 nano sim',
         }
     },
+
     {
         name: 'Iphone 11 Pro',
         brand: 'Apple',
@@ -189,21 +191,26 @@ let products = [
         }
     },
     {
-        name: 'Samsung Galaxy J7',
-        brand: 'Samsung',
-        price: '4.500.000 vnd',
-        color: 'Silver',
+        name: 'Iphone 11 Pro',
+        brand: 'Apple',
+        version: 64,
+        price: '21.990.000 vnd',
+        color: 'Black',
         specs: {
-            screen_type: 'Super AMOLED, 5.5, Full HD',
-            camera: '13MP : 13MP',
-            Ram: '3GB',
-            Operating_system: 'Android 7.0',
-            Pin: 'Li-lon 3600 mAh',
-            internal_memory: 'MicroSD, 256GB',
+            screen: 6.1,
+            screen_type: 'IPS lcd',
+            os: 'IOS 13',
+            main_camera: '12 mp',
+            fron_camera: '12 mp',
+            cpu: 'apple a13 bionic 6 core',
+            ram: '4 gb',
+            rom: '64 gb',
+            battery: '3110 mAh',
+            sim: '1 esim & 1 nano sim',
         }
     },
     {
-        name: 'Samsung Galaxy J7',
+        name: 'Samsung Galaxy J7 Pro',
         brand: 'Samsung',
         price: '4.500.000 vnd',
         color: 'Black',
@@ -217,10 +224,24 @@ let products = [
         }
     },
     {
+        name: 'Samsung Galaxy J7 Pro',
+        brand: 'Samsung',
+        price: '4.500.000 vnd',
+        color: 'Rose',
+        specs: {
+            screen_type: 'Super AMOLED, 5.5, Full HD',
+            camera: '13MP : 13MP',
+            Ram: '3GB',
+            Operating_system: 'Android 7.0',
+            Pin: 'Li-lon 3600 mAh',
+            internal_memory: 'MicroSD, 256GB',
+        }
+    },
+    {
         name: 'Samsung Galaxy note 9',
         brand: 'Samsung',
         price: '6.550.000 vnd',
-        color: 'Cu-95',
+        color: 'Green dark',
         specs: {
             screen_type: 'Super AMOLED, 16M color',
             camera: '12MP + 12MP, LED flash ',
@@ -234,7 +255,7 @@ let products = [
         name: 'Samsung Galaxy note 9',
         brand: 'Samsung',
         price: '6.550.000 vnd',
-        color: 'Black',
+        color: 'Rose',
         specs: {
             screen_type: 'Super AMOLED, 16M color',
             camera: '12MP + 12MP, LED flash ',
@@ -248,7 +269,7 @@ let products = [
         name: 'Samsung Galaxy S10',
         brand: 'Samsung',
         price: '8.150.000 vnd',
-        color: 'Silver',
+        color: 'Silver green',
         specs: {
             screen_type: 'Dynamic AMOLED, 6.7, Quad HD + (2k+)',
             camera: '12MP + 12MP, LED flash ',
@@ -504,7 +525,7 @@ let products = [
             }
      },
          {
-            name: 'Xiaomi Mi 10 Pro ',
+            name: 'Xiaomi Mi POCO X3  ',
             brand: 'Xiaomi',
             price: '16.890.000 vnd',
             color: 'Blue Glacier',
@@ -521,7 +542,7 @@ let products = [
             }
     },
          {
-            name: 'Xiaomi Mi 10 Pro ',
+            name: 'Xiaomi Mi POCO X3  ',
             brand: 'Xiaomi',
             price: '16.890.000 vnd',
             color: 'White',
